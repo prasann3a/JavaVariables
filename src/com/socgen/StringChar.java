@@ -10,5 +10,10 @@ public class StringChar {
         System.out.println(myCopyrightChar);
         boolean myTrueBooleanValue= true;
         boolean myFalseBooleanValue= false;
+
+        String myString="This is a string";
+        System.out.println("myString is equal to "+ myString);
+        myString= myString+ ", and this is more.";
+        System.out.println("myString is equal to" + myString);
     }
 }
